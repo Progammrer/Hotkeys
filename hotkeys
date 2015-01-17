@@ -1,0 +1,37 @@
+SetCapsLockState, AlwaysOff ; Make caps lock never turn on
+
+CapsLock:: send {F5}
+
+AppsKey::Send Aimal go eat your food{enter} 
+CapsLock & e::Send thescientisteddude@hotmail.com{Tab}
+;SC01A :: send (
+;SC01B :: send )
+;k::Click
+
+;Spanish
+
+;CapsLock & !:: send ¡
+;CapsLock & ?:: send ¿ 
+;CapsLock & o:: send ó
+;CapsLock & e:: send é
+;CapsLock & i:: send í
+;CapsLock & n:: send ñ
+;CapsLock & a:: send á
+;CapsLock & u:: send ú
+
+CapsLock & 1:: send ~
+CapsLock & W:: send {Up}
+CapsLock & S:: send {Down}
+CapsLock & A:: send {Left}
+CapsLock & D:: send {Right}
+
+CapsLock & m:: Run C:\Program Files (x86)\VideoLAN\VLC\vlc.exe C:\Users\Ajmal\Music
+return
+
+;	Volume Control		;
+PgUp:: Send {Volume_Up}
+PgDn:: Send {Volume_Down}
+Insert:: Send {Volume_Mute}
+PrintScreen::Media_Prev
+ScrollLock::Media_Play_Pause
+Pause::Media_Next
